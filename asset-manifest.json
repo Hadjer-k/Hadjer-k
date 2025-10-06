@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/Hadjer-k/static/css/main.5220d11b.css",
-    "main.js": "/Hadjer-k/static/js/main.6d2fa2f6.js",
-    "static/js/488.7fbbc427.chunk.js": "/Hadjer-k/static/js/488.7fbbc427.chunk.js",
-    "static/media/tablet.jpg": "/Hadjer-k/static/media/tablet.3b536447b72ab80731b5.jpg",
-    "static/media/laptop.jpg": "/Hadjer-k/static/media/laptop.26566a3eb58182e27b58.jpg",
-    "static/media/logo.webp": "/Hadjer-k/static/media/logo.4b1835b6c81040f098ec.webp",
-    "index.html": "/Hadjer-k/index.html",
-    "main.5220d11b.css.map": "/Hadjer-k/static/css/main.5220d11b.css.map",
-    "main.6d2fa2f6.js.map": "/Hadjer-k/static/js/main.6d2fa2f6.js.map",
-    "488.7fbbc427.chunk.js.map": "/Hadjer-k/static/js/488.7fbbc427.chunk.js.map"
+    "main.css": "/static/css/main.5220d11b.css",
+    "main.js": "/static/js/main.dfe65de2.js",
+    "static/js/488.7fbbc427.chunk.js": "/static/js/488.7fbbc427.chunk.js",
+    "static/media/tablet.jpg": "/static/media/tablet.3b536447b72ab80731b5.jpg",
+    "static/media/laptop.jpg": "/static/media/laptop.26566a3eb58182e27b58.jpg",
+    "static/media/logo.webp": "/static/media/logo.4b1835b6c81040f098ec.webp",
+    "index.html": "/index.html",
+    "main.5220d11b.css.map": "/static/css/main.5220d11b.css.map",
+    "main.dfe65de2.js.map": "/static/js/main.dfe65de2.js.map",
+    "488.7fbbc427.chunk.js.map": "/static/js/488.7fbbc427.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.5220d11b.css",
-    "static/js/main.6d2fa2f6.js"
+    "static/js/main.dfe65de2.js"
   ]
 }
