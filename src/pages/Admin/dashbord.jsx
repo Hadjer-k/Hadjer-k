@@ -9,7 +9,7 @@ const DashboardPage = () => {
       prenom: "Ali",
       nif: "123456789",
       nis: "987654321",
-      c12: true,
+      G12: true,
       declarationDate: "2025-08-20",
       email: "ahmed.karim@example.com",
     },
@@ -19,7 +19,7 @@ const DashboardPage = () => {
       prenom: "Khelifa",
       nif: "555666777",
       nis: "111222333",
-      c12: false,
+      G12: false,
       declarationDate: "2025-09-10",
       email: "sara.khelifa@example.com",
     },
@@ -29,7 +29,7 @@ const DashboardPage = () => {
       prenom: "Brahimi",
       nif: "222333444",
       nis: "444555666",
-      c12: false,
+      G12: false,
       declarationDate: "2025-07-15",
       email: "rafik.brahimi@example.com",
     },
@@ -39,7 +39,7 @@ const DashboardPage = () => {
       prenom: "Meziane",
       nif: "777888999",
       nis: "111999333",
-      c12: true,
+      G12: true,
       declarationDate: "2025-09-05",
       email: "nadia.meziane@example.com",
     },
@@ -49,7 +49,7 @@ const DashboardPage = () => {
       prenom: "Said",
       nif: "444222111",
       nis: "222333111",
-      c12: false,
+      G12: false,
       declarationDate: "2025-09-22",
       email: "karim.said@example.com",
     },
@@ -66,13 +66,13 @@ const DashboardPage = () => {
     nif: "",
     nis: "",
     email: "",
-    c12: false,
+    G12: false,
     declarationDate: "",
   });
 
   // Déterminer statut
   const getStatus = (p) => {
-    if (p.c12) return "Déclaré";
+    if (p.G12) return "Déclaré";
     const declarationDate = new Date(p.declarationDate);
     const now = new Date();
     const diff = (now - declarationDate) / (1000 * 60 * 60 * 24);
@@ -93,7 +93,7 @@ const DashboardPage = () => {
         nif: "",
         nis: "",
         email: "",
-        c12: false,
+        G12: false,
         declarationDate: new Date().toISOString().split("T")[0],
       });
     }
@@ -335,11 +335,11 @@ const DashboardPage = () => {
               <label className="flex items-center gap-2">
                 <input
                   type="checkbox"
-                  name="c12"
-                  checked={formData.c12}
+                  name="G12"
+                  checked={formData.G12}
                   onChange={handleChange}
                 />
-                C12 déclaré ?
+                G12 déclaré ?
               </label>
               <input
                 type="date"
